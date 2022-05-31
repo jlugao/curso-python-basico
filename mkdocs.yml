@@ -1,0 +1,35 @@
+site_name: Do zero a implantação
+theme:
+  name: material
+  language: pt
+  palette: 
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github-alt
+  logo: imgs/python_rocket.png
+  favicon: imgs/favicon.ico
+  features:
+  - content.tabs.link
+markdown_extensions:
+  - pymdownx.emoji
+  - pymdownx.tasklist
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.tabbed:
+      alternate_style: true
+  - md_in_html
+repo_name: jlugao/curso-python-basico
+repo_url: https://github.com/jlugao/curso-python-basico
+
+nav:
+  - Introdução: index.md
+  - Basicao: basico.md
+  - Projetinhos: ferramentas.md
+  - Referências e próximos passos: referencias.md
